@@ -10,3 +10,6 @@ C:\Users\bruna.oliveira\source\repos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\
 C:\Users\bruna.oliveira\source\repos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.dll
 C:\Users\bruna.oliveira\source\repos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net5.0\ref\CleanArchMvc.Domain.dll
 C:\Users\bruna.oliveira\source\repos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.pdb
+C:\Users\bruna.oliveira\source\repos\CleanArchMvc\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.runtimeconfig.json
+C:\Users\bruna.oliveira\source\repos\CleanArchMvc\CleanArchMvc.Domain\bin\Debug\net5.0\CleanArchMvc.Domain.runtimeconfig.dev.json
+C:\Users\bruna.oliveira\source\repos\CleanArchMvc\CleanArchMvc.Domain\obj\Debug\net5.0\CleanArchMvc.Domain.genruntimeconfig.cache

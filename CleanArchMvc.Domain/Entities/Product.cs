@@ -10,7 +10,7 @@ namespace CleanArchMvc.Domain.Entities
     public sealed class Product : Entity
     {
         public string Name { get; private set; }
-        public string Descripition { get; private set; }
+        public string Description { get; private set; }
         public decimal Price { get; private set; }
         public int Stock { get; private set; }
         public string Image { get; private set; }
@@ -40,6 +40,8 @@ namespace CleanArchMvc.Domain.Entities
 
             DomainExcepetionValidation.When(string.IsNullOrEmpty(description), "Invalid name.Name is required");
 
+            DomainExcepetionValidation.When(description.Length < 5, "Invalid description, too short, minimum 5 characters");
+
             DomainExcepetionValidation.When(price < 0, "Invalid price value.");
 
             DomainExcepetionValidation.When(stock < 0, "Invalid stock value.");
@@ -47,7 +49,7 @@ namespace CleanArchMvc.Domain.Entities
             DomainExcepetionValidation.When(image?.Length > 250, "Invalid image, too long, maximum 250 characters");
 
             Name = name;
-            Descripition = description;
+            Description = description;
             Price = price;
             Stock = stock;
             Image = image;
